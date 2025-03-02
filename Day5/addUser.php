@@ -8,11 +8,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Register Page</title>
+    <title>Add User Page</title>
 </head>
 <body>
 <div class="register-container d-block ">
-    <h2>Register</h2>
+    <h2>Add USer</h2>
     <!-- <form action="../Server/server.php" method="post"> -->
     <div>
         <?php
@@ -39,7 +39,7 @@
             <label for="img">Upload Image</label>
             <input type="file" id="img" name="img"placeholder="Upload Your Image" accept="../images/*" required>
         </div> -->
-        <button type="submit" class="register-btn" name="btn-register" value="register">Register Now</button>
+        <button type="submit" class="register-btn" name="btn-add" value="register">Add Now</button>
         
     </form>
 </div>

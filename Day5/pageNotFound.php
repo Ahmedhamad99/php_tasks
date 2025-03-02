@@ -1,18 +1,14 @@
-<?php 
-
-
-include("../base.php");
+<?php
+require('index.html');
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Not Found</title>
 </head>
 <body>
-    <p class="alert alert-danger">404 NOT FOUND</p>
+    <h1 class=" text-bg-danger">Not Found User</h1>
 </body>
 </html>
